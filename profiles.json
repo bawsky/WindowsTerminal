@@ -80,6 +80,27 @@
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
             "startingDirectory" : "%USERPROFILE%"
+        },
+        {
+            // Anaconda
+            "guid": "{7680d607-3f9c-43b7-8b3c-8521e5b5139f}",
+            "name": "Anaconda",
+            "commandline": "%windir%\\System32\\cmd.exe \"/K\" C:\\Users\\Ben\\Anaconda3\\Scripts\\activate.bat C:\\Users\\Ben\\Anaconda3",
+            "icon": "f:/dev/icons/anaconda-icon.png",
+            "useAcrylic" : true,
+            "acrylicOpacity" : 0.75,
+            "closeOnExit" : true,
+            "colorScheme" : "One Half Dark",
+            "cursorColor" : "#00FF00",
+            "cursorHeight" : 25,
+            "cursorShape" : "vintage",
+            "fontFace" : "Fira Code",
+            "fontSize" : 12,
+            "historySize" : 9001,
+            "hidden": false,
+            "padding" : "0, 0, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "%USERPROFILE%"
         }
     ],
 
