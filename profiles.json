@@ -6,40 +6,6 @@
     "profiles":
     [
         {
-            // Powershell
-            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-            "name": "Windows PowerShell",
-            "commandline": "powershell.exe",
-            "useAcrylic" : true,
-            "acrylicOpacity" : 0.75,
-            "closeOnExit" : true,
-            "colorScheme" : "One Half Dark",
-            "cursorColor" : "#00FF00",
-            "cursorHeight" : 25,
-            "cursorShape" : "vintage",
-            "fontFace" : "Fira Code",
-            "fontSize" : 12,
-            "historySize" : 9001,
-            "hidden": false,
-            "padding" : "0, 0, 0, 0",
-            "snapOnInput" : true,
-            "startingDirectory" : "%USERPROFILE%"
-        },
-        {
-            // Cmd
-            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-            "name": "cmd",
-            "commandline": "cmd.exe",
-            "hidden": false
-        },
-        {
-            // Azure
-            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-            "hidden": false,
-            "name": "Azure Cloud Shell",
-            "source": "Windows.Terminal.Azure"
-        },
-        {
             // Ubuntu
             "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
             "name": "Ubuntu",
@@ -101,6 +67,61 @@
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
             "startingDirectory" : "%USERPROFILE%"
+        },
+        {
+            // MayaPy
+            "guid": "{990e5dbf-45a5-4780-a0f0-8eb4e9e9f744}",
+            "name": "MayaPy",
+            "commandline": "C:/Program Files/Autodesk/Maya2019/bin/mayapy.exe",
+            "icon": "f:/dev/icons/maya-icon.png",
+            "useAcrylic" : true,
+            "acrylicOpacity" : 0.75,
+            "closeOnExit" : true,
+            "colorScheme" : "One Half Dark",
+            "cursorColor" : "#00FF00",
+            "cursorHeight" : 25,
+            "cursorShape" : "vintage",
+            "fontFace" : "Fira Code",
+            "fontSize" : 12,
+            "historySize" : 9001,
+            "hidden": false,
+            "padding" : "0, 0, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "%USERPROFILE%"
+        },
+        {
+            // Powershell
+            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "name": "Windows PowerShell",
+            "commandline": "powershell.exe",
+            "useAcrylic" : true,
+            "acrylicOpacity" : 0.75,
+            "closeOnExit" : true,
+            "colorScheme" : "One Half Dark",
+            "cursorColor" : "#00FF00",
+            "cursorHeight" : 25,
+            "cursorShape" : "vintage",
+            "fontFace" : "Fira Code",
+            "fontSize" : 12,
+            "historySize" : 9001,
+            "hidden": false,
+            "padding" : "0, 0, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "%USERPROFILE%"
+        },
+        {
+            // Cmd
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "cmd",
+            "commandline": "cmd.exe",
+            "hidden": false
+        },
+        {
+            // Azure
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "hidden": false,
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure"
         }
     ],
 
