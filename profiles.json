@@ -1,133 +1,196 @@
 {
-    "$schema": "https://aka.ms/terminal-profiles-schema",
+  "$schema": "https://aka.ms/terminal-profiles-schema",
 
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
 
-    "profiles":
-    [
-        {
-            // Ubuntu
-            "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-            "name": "Ubuntu",
-            "commandline" : "wsl.exe -d Ubuntu",
-            "icon": "f:/dev/icons/ubuntu-icon.png",
-            "useAcrylic" : true,
-            "acrylicOpacity" : 0.75,
-            "closeOnExit" : true,
-            "colorScheme" : "One Half Dark",
-            "cursorColor" : "#00FF00",
-            "cursorHeight" : 25,
-            "cursorShape" : "vintage",
-            "fontFace" : "Fira Code",
-            "fontSize" : 12,
-            "historySize" : 9001,
-            "hidden": false,
-            "padding" : "0, 0, 0, 0",
-            "snapOnInput" : true,
-            "startingDirectory" : "%USERPROFILE%"
-        },
-        {
-            // Debian
-            "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
-            "name": "Debian",
-            "commandline" : "wsl.exe -d Debian",
-            "icon": "f:/dev/icons/debian-icon.png",
-            "useAcrylic" : true,
-            "acrylicOpacity" : 0.75,
-            "closeOnExit" : true,
-            "colorScheme" : "One Half Dark",
-            "cursorColor" : "#00FF00",
-            "cursorHeight" : 25,
-            "cursorShape" : "vintage",
-            "fontFace" : "Fira Code",
-            "fontSize" : 12,
-            "historySize" : 9001,
-            "hidden": false,
-            "padding" : "0, 0, 0, 0",
-            "snapOnInput" : true,
-            "startingDirectory" : "%USERPROFILE%"
-        },
-        {
-            // Anaconda
-            "guid": "{7680d607-3f9c-43b7-8b3c-8521e5b5139f}",
-            "name": "Anaconda",
-            "commandline": "%windir%\\System32\\cmd.exe \"/K\" C:\\Users\\Ben\\Anaconda3\\Scripts\\activate.bat C:\\Users\\Ben\\Anaconda3",
-            "icon": "f:/dev/icons/anaconda-icon.png",
-            "useAcrylic" : true,
-            "acrylicOpacity" : 0.75,
-            "closeOnExit" : true,
-            "colorScheme" : "One Half Dark",
-            "cursorColor" : "#00FF00",
-            "cursorHeight" : 25,
-            "cursorShape" : "vintage",
-            "fontFace" : "Fira Code",
-            "fontSize" : 12,
-            "historySize" : 9001,
-            "hidden": false,
-            "padding" : "0, 0, 0, 0",
-            "snapOnInput" : true,
-            "startingDirectory" : "%USERPROFILE%"
-        },
-        {
-            // MayaPy
-            "guid": "{990e5dbf-45a5-4780-a0f0-8eb4e9e9f744}",
-            "name": "MayaPy",
-            "commandline": "C:/Program Files/Autodesk/Maya2019/bin/mayapy.exe",
-            "icon": "f:/dev/icons/maya-icon.png",
-            "useAcrylic" : true,
-            "acrylicOpacity" : 0.75,
-            "closeOnExit" : true,
-            "colorScheme" : "One Half Dark",
-            "cursorColor" : "#00FF00",
-            "cursorHeight" : 25,
-            "cursorShape" : "vintage",
-            "fontFace" : "Fira Code",
-            "fontSize" : 12,
-            "historySize" : 9001,
-            "hidden": false,
-            "padding" : "0, 0, 0, 0",
-            "snapOnInput" : true,
-            "startingDirectory" : "%USERPROFILE%"
-        },
-        {
-            // Powershell
-            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-            "name": "Windows PowerShell",
-            "commandline": "powershell.exe",
-            "useAcrylic" : true,
-            "acrylicOpacity" : 0.75,
-            "closeOnExit" : true,
-            "colorScheme" : "One Half Dark",
-            "cursorColor" : "#00FF00",
-            "cursorHeight" : 25,
-            "cursorShape" : "vintage",
-            "fontFace" : "Fira Code",
-            "fontSize" : 12,
-            "historySize" : 9001,
-            "hidden": false,
-            "padding" : "0, 0, 0, 0",
-            "snapOnInput" : true,
-            "startingDirectory" : "%USERPROFILE%"
-        },
-        {
-            // Cmd
-            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-            "name": "cmd",
-            "commandline": "cmd.exe",
-            "hidden": false
-        },
-        {
-            // Azure
-            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-            "hidden": false,
-            "name": "Azure Cloud Shell",
-            "source": "Windows.Terminal.Azure"
-        }
-    ],
+  "profiles": [
+    {
+      // Ubuntu
+      "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+      "name": "Ubuntu",
+      "commandline": "wsl.exe -d Ubuntu",
+      "icon": "f:/dev/icons/ubuntu-icon.png",
+      "useAcrylic": true,
+      "acrylicOpacity": 0.90,
+      "closeOnExit": true,
+      "colorScheme": "One Half Dark",
+      "cursorColor": "#00FF00",
+      "cursorHeight": 25,
+      "cursorShape": "vintage",
+      "fontFace": "Fira Code",
+      "fontSize": 12,
+      "historySize": 9001,
+      "hidden": false,
+      "padding": "0, 0, 0, 0",
+      "snapOnInput": true,
+      "startingDirectory": "%USERPROFILE%"
+    },
+    {
+      // Debian
+      "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+      "name": "Debian",
+      "commandline": "wsl.exe -d Debian",
+      "icon": "f:/dev/icons/debian-icon.png",
+      "useAcrylic": true,
+      "acrylicOpacity": 0.90,
+      "closeOnExit": true,
+      "colorScheme": "One Half Dark",
+      "cursorColor": "#00FF00",
+      "cursorHeight": 25,
+      "cursorShape": "vintage",
+      "fontFace": "Fira Code",
+      "fontSize": 12,
+      "historySize": 9001,
+      "hidden": false,
+      "padding": "0, 0, 0, 0",
+      "snapOnInput": true,
+      "startingDirectory": "%USERPROFILE%"
+    },
+    {
+      // Anaconda
+      "guid": "{7680d607-3f9c-43b7-8b3c-8521e5b5139f}",
+      "name": "Anaconda",
+      "commandline": "%windir%\\System32\\cmd.exe \"/K\" C:\\Users\\Ben\\Anaconda3\\Scripts\\activate.bat C:\\Users\\Ben\\Anaconda3",
+      "icon": "f:/dev/icons/anaconda-icon.png",
+      "useAcrylic": true,
+      "acrylicOpacity": 0.90,
+      "closeOnExit": true,
+      "colorScheme": "One Half Dark",
+      "cursorColor": "#00FF00",
+      "cursorHeight": 25,
+      "cursorShape": "vintage",
+      "fontFace": "Fira Code",
+      "fontSize": 12,
+      "historySize": 9001,
+      "hidden": false,
+      "padding": "0, 0, 0, 0",
+      "snapOnInput": true,
+      "startingDirectory": "%USERPROFILE%"
+    },
+    {
+      // MayaPy
+      "guid": "{990e5dbf-45a5-4780-a0f0-8eb4e9e9f744}",
+      "name": "MayaPy",
+      "commandline": "C:/Program Files/Autodesk/Maya2020/bin/mayapy.exe",
+      "icon": "f:/dev/icons/maya-icon.png",
+      "useAcrylic": true,
+      "acrylicOpacity": 0.90,
+      "closeOnExit": true,
+      "colorScheme": "One Half Dark",
+      "cursorColor": "#00FF00",
+      "cursorHeight": 25,
+      "cursorShape": "vintage",
+      "fontFace": "Fira Code",
+      "fontSize": 12,
+      "historySize": 9001,
+      "hidden": false,
+      "padding": "0, 0, 0, 0",
+      "snapOnInput": true,
+      "startingDirectory": "%USERPROFILE%"
+    },
+    {
+      // Kali Linux
+      "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
+      "name": "kali-linux",
+      "commandline": "wsl.exe -d kali-linux",
+      "icon": "f:/dev/icons/kali-icon.png",
+      "useAcrylic": true,
+      "acrylicOpacity": 0.90,
+      "closeOnExit": true,
+      "colorScheme": "One Half Dark",
+      "cursorColor": "#00FF00",
+      "cursorHeight": 25,
+      "cursorShape": "vintage",
+      "fontFace": "Fira Code",
+      "fontSize": 12,
+      "historySize": 9001,
+      "hidden": false,
+      "padding": "0, 0, 0, 0",
+      "snapOnInput": true,
+      "startingDirectory": "%USERPROFILE%",
+      "source": "Windows.Terminal.Wsl"
+    },
+    {
+      // Git Bash
+      "guid": "{482f1fc8-9f1a-4d92-a2a2-b75f6e97a1e9}",
+      "name": "Git Bash",
+      "commandline": "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
+      "icon": "%SystemDrive%\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+      "useAcrylic": true,
+      "acrylicOpacity": 0.90,
+      "closeOnExit": true,
+      "colorScheme": "One Half Dark",
+      "cursorColor": "#00FF00",
+      "cursorHeight": 25,
+      "cursorShape": "vintage",
+      "fontFace": "Fira Code",
+      "fontSize": 12,
+      "historySize": 9001,
+      "hidden": false,
+      "padding": "0, 0, 0, 0",
+      "snapOnInput": true,
+      "startingDirectory": "%USERPROFILE%"
+    },
+    {
+      // PowerShell 6 (6)
+      "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+      "name": "PowerShell Core",
+      "commandline": "pwsh.exe",
+      "icon": "ms-appx:///ProfileIcons/{574e775e-4f2a-5b96-ac1e-a2962a402336}.png",
+      "useAcrylic": true,
+      "acrylicOpacity": 0.90,
+      "closeOnExit": true,
+      "colorScheme": "One Half Dark",
+      "cursorColor": "#00FF00",
+      "cursorHeight": 25,
+      "cursorShape": "vintage",
+      "fontFace": "Fira Code",
+      "fontSize": 12,
+      "historySize": 9001,
+      "hidden": false,
+      "padding": "0, 0, 0, 0",
+      "snapOnInput": true,
+      "startingDirectory": "%USERPROFILE%"
+    },
+    {
+      // PowerShell 5
+      "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+      "name": "Windows PowerShell",
+      "commandline": "powershell.exe",
+      "useAcrylic": true,
+      "acrylicOpacity": 0.90,
+      "closeOnExit": true,
+      "colorScheme": "One Half Dark",
+      "cursorColor": "#00FF00",
+      "cursorHeight": 25,
+      "cursorShape": "vintage",
+      "fontFace": "Fira Code",
+      "fontSize": 12,
+      "historySize": 9001,
+      "hidden": false,
+      "padding": "0, 0, 0, 0",
+      "snapOnInput": true,
+      "startingDirectory": "%USERPROFILE%"
+    },
+    {
+      // Cmd
+      "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+      "name": "cmd",
+      "commandline": "cmd.exe",
+      "hidden": false
+    },
+    {
+      // Azure
+      "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+      "hidden": false,
+      "name": "Azure Cloud Shell",
+      "source": "Windows.Terminal.Azure"
+    }
+  ],
 
-    // Custom colors
-    "schemes": [],
+  // Custom colors
+  "schemes": [],
 
-    // Custom keybindings
-    "keybindings": []
+  // Custom keybindings
+  "keybindings": []
 }
